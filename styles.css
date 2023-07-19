@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ff9600; /* Color de fondo naranja */
+  }
+  
+  .container {
+    max-width: 600px;
+  }
+  
+  .card {
+    border: none;
+    background-color: #ffffff; /* Color de fondo blanco para las cards */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card p {
+    color: #333333; /* Color de texto negro en las cards */
+  }
+  
+  .btn-primary {
+    background-color: #ffffff; /* Color de fondo blanco para el botón */
+    color: #ff9600; /* Color de texto naranja para el botón */
+    border: 2px solid #ff9600; /* Borde naranja para el botón */
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff9600; /* Cambio de color de fondo a naranja al pasar el cursor */
+    color: #ffffff; /* Cambio de color de texto a blanco al pasar el cursor */
+  }
